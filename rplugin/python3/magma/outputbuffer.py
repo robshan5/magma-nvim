@@ -123,7 +123,7 @@ class OutputBuffer:
                     "width": win_width,
                     "height": min(win_height - win_row, lineno + 1),
                     "anchor": "NW",
-                    "style": None
+                    "style": "minimal"
                     if self.options.output_window_borders
                     else "minimal",
                     "border": "rounded"
