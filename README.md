@@ -32,13 +32,13 @@ Use your favourite package/plugin manager.
 If you use `packer.nvim`,
 
 ```lua
-use { 'dccsillag/magma-nvim', run = ':UpdateRemotePlugins' }
+use { 'robshan5/magma-nvim', run = ':UpdateRemotePlugins' }
 ```
 
 If you use `vim-plug`,
 
 ```vim
-Plug 'dccsillag/magma-nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'robshan5/magma-nvim', { 'do': ':UpdateRemotePlugins' }
 ```
 
 Note that you will still need to configure keymappings -- see [Keybindings](#keybindings).
